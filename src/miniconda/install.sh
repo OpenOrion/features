@@ -20,6 +20,6 @@ ARCH=$(uname -m) && \
 echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc
 echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.zshrc
 
-teardown
+remove_downloader
 
 echo 'Done!'

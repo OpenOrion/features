@@ -156,7 +156,7 @@ ensure_nanolayer() {
 
 }
 
-teardown() {
+remove_downloader() {
     if ! [ -z $downloader_installed ] ; then
         if [ -x "/usr/bin/apt-get" ] ; then
             _apt_get_cleanup $tempdir
@@ -167,5 +167,4 @@ teardown() {
             exit 1
         fi
     fi
-    rm $nanolayer_location
 }
