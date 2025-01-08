@@ -1,0 +1,10 @@
+{
+    "install_conda": {
+        "image": "ubuntu:focal",
+        "features": {
+            "conda": {
+                "version": "latest"
+            }
+        }
+    }
+}
