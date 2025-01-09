@@ -1,0 +1,19 @@
+{
+    "install_cadquery_latest": {
+        "image": "ubuntu:focal",
+        "features": {
+            "cadquery": {
+                "version": "latest"
+            }
+        }
+    },
+
+    "install_cadquery_master": {
+        "image": "ubuntu:focal",
+        "features": {
+            "cadquery": {
+                "version": "master"
+            }
+        }
+    }
+}

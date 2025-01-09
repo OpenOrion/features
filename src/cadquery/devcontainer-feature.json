@@ -1,0 +1,21 @@
+{
+    "id": "cadquery",
+    "version": "1.0.0",
+    "name": "CadQuery",
+    "documentationURL": "http://github.com/OpenOrion/features/tree/main/src/cadquery",
+    "description": "CadQuery is an intuitive, easy-to-use Python library for building parametric 3D CAD models. It provides a simple way to define geometric shapes and boolean operations to create complex models.",
+    "options": {
+        "version": {
+            "default": "latest",
+            "description": "Select the version to install.",
+            "proposals": [
+                "latest",
+                "master"
+            ],
+            "type": "string"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/openorion/features/miniconda"
+    ]
+}

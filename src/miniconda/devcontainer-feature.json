@@ -1,6 +1,6 @@
 {
     "id": "miniconda",
-    "version": "1.0.9",
+    "version": "1.0.0",
     "name": "Miniconda",
     "description": "A cross-platform, language-agnostic binary package manager",
     "documentationURL": "https://github.com/OpenOrion/features/tree/main/src/miniconda",
